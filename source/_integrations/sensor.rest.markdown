@@ -106,6 +106,10 @@ headers:
   description: The headers for the requests.
   required: false
   type: [string, list]
+headers_template:
+  description:The templated headers for the requests.
+  required: false
+  type: [string, list]
 params:
   description: The query params for the requests.
   required: false
